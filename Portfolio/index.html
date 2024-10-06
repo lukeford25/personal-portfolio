@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Luke Ford - Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="section">
+        <div class="home-content">
+          <img src="img/IMG_2961.JPG" alt="Luke Ford" class="profile-image" />
+          <h1></h1>
+          <p>Web & Mobile Developer</p>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <h2>About Me</h2>
+        <p>
+          Luke Ford is an aspiring cybersecurity professional currently pursuing
+          a degree in Computer Science at Union Adventist University. With a
+          strong foundation in business, evidenced by his Bachelor's in Business
+          Administration, Luke brings a unique blend of business acumen and
+          technical skills to the table.
+        </p>
+        <p>
+          Currently working in Information Systems as a desktop support
+          specialist, Luke is gaining hands-on experience in IT infrastructure
+          and user support. This role fuels his passion for cybersecurity, as he
+          witnesses firsthand the importance of robust security measures in
+          today's digital landscape.
+        </p>
+        <p>
+          Luke's technical repertoire includes proficiency in Python, HTML, CSS,
+          and JavaScript. He has demonstrated his coding skills through various
+          projects, including a Python-based Pokémon battle simulator and
+          several React Native applications. These projects showcase his ability
+          to create interactive and engaging software solutions.
+        </p>
+        <p>
+          As he works towards his CompTIA A+ certification, Luke is dedicated to
+          expanding his knowledge and staying current with the latest trends in
+          technology and security. His goal is to transition into a
+          cybersecurity role, where he can leverage his diverse skill set to
+          protect digital assets and contribute to the ever-evolving field of
+          information security.
+        </p>
+        <p>
+          Luke is passionate about the intersection of technology and privacy,
+          and is eager to explore innovative ways to safeguard digital
+          information in an increasingly connected world.
+        </p>
+      </section>
+
+      <!-- Updated Projects Section -->
+      <section id="projects" class="section section">
+        <h2>Projects</h2>
+        <div class="project-grid">
+          <div class="project">
+            <img
+              src="img/Pokemon.png"
+              alt="Pokémon Battle Simulator"
+              class="project-image"
+            />
+            <h3>Pokémon Battle Simulator</h3>
+            <p class="project-description">
+              A Python-based simulator that brings the excitement of Pokémon
+              battles to life. Users can choose their Pokémon, select moves, and
+              implement battle strategies in this interactive command-line game.
+            </p>
+            <div class="project-tech">
+              <h4>Technologies Used:</h4>
+              <ul>
+                <li>Python</li>
+                <li>Object-Oriented Programming</li>
+                <li>Game Logic</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="project">
+            <img
+              src="img/Weather.png"
+              alt="Weather App"
+              class="project-image"
+            />
+            <h3>Weather App</h3>
+            <p class="project-description">
+              A React Native mobile application that provides real-time weather
+              information. Users can check current conditions, forecasts, and
+              weather alerts for multiple locations.
+            </p>
+            <div class="project-tech">
+              <h4>Technologies Used:</h4>
+              <ul>
+                <li>React Native</li>
+                <li>JavaScript</li>
+                <li>API Integration</li>
+                <li>Mobile Development</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="project">
+            <img src="img/Timer.png" alt="Timer App" class="project-image" />
+            <h3>Timer App</h3>
+            <p class="project-description">
+              A sleek and user-friendly timer application built with React
+              Native. Features include multiple timers, customizable alarms, and
+              a clean interface for easy time management.
+            </p>
+            <div class="project-tech">
+              <h4>Technologies Used:</h4>
+              <ul>
+                <li>React Native</li>
+                <li>JavaScript</li>
+                <li>State Management</li>
+                <li>UI/UX Design</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="section section">
+        <h2>Skills</h2>
+        <div class="skills-container">
+          <div class="skills-category">
+            <h3>Programming Languages</h3>
+            <div class="skills-grid">
+              <div class="skill">
+                <span class="skill-name">Python</span>
+                <div class="skill-bar" data-skill="90"></div>
+              </div>
+              <div class="skill">
+                <span class="skill-name">JavaScript</span>
+                <div class="skill-bar" data-skill="80"></div>
+              </div>
+              <div class="skill">
+                <span class="skill-name">HTML/CSS</span>
+                <div class="skill-bar" data-skill="85"></div>
+              </div>
+            </div>
+          </div>
+          <div class="skills-category">
+            <h3>Frameworks & Tools</h3>
+            <div class="skills-grid">
+              <div class="skill">
+                <span class="skill-name">React Native</span>
+                <div class="skill-bar" data-skill="75"></div>
+              </div>
+              <div class="skill">
+                <span class="skill-name">Git</span>
+                <div class="skill-bar" data-skill="70"></div>
+              </div>
+            </div>
+          </div>
+          <div class="skills-category">
+            <h3>Other Skills</h3>
+            <div class="skills-grid">
+              <div class="skill">
+                <span class="skill-name">Problem Solving</span>
+                <div class="skill-bar" data-skill="85"></div>
+              </div>
+              <div class="skill">
+                <span class="skill-name">IT Support</span>
+                <div class="skill-bar" data-skill="80"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Your Name"
+            required
+          />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Your Email"
+            required
+          />
+          <textarea
+            id="message"
+            name="message"
+            placeholder="Your Message"
+            required
+          ></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 Luke Ford. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
